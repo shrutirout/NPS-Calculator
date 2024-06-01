@@ -1,0 +1,15 @@
+<!-- src/main/resources/templates/result.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calculation Result</title>
+</head>
+<body>
+    <h1>Calculation Result</h1>
+    <p>Total Investment: Rs <span th:text="${totalInvestment}"></span></p>
+    <p>Investment Earned: Rs <span th:text="${investmentEarned}"></span></p>
+    <p>Maturity Amount: Rs <span th:text="${maturityAmount}"></span></p>
+    <p>Minimum Annuity Investment: Rs <span th:text="${minAnnuityInvestment}"></span></p>
+    <a href="/">Back</a>
+</body>
+</html>
